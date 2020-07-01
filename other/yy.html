@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>fullPage-Music</title>
+    <meta name="author" content="Alvaro Trigo Lopez" />
+    <meta name="description" content="fullPage full-screen navigation and sections control menu." />
+    <meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,navigation,control arrows, dots" />
+    <meta name="Resource-type" content="Document" />
+
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fontawesome-all.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+    <link rel="stylesheet" href="css/style2.css">
+
+    <style>
+        h1{
+            font-size: 5em;
+            font-family: arial,helvetica;
+            color: #fff;
+            margin:0;
+        }
+        .intro p{
+            color: #fff;
+        }
+
+        /* Centered texts in each section
+        * --------------------------------------- */
+        .section{
+            text-align:center;
+        }
+
+        /* Bottom menu
+        * --------------------------------------- */
+        #infoMenu li a {
+            color: #fff;
+        }
+
+        /*.section{*/
+            /*background-size: cover;*/
+        /*}*/
+        .slide{
+            background-size: cover;
+        }
+
+        /*#section0{*/
+            /*background-image: url(images/cover_bg_1.jpg);*/
+        /*}*/
+    </style>
+
+    <!--[if IE]>
+    <script type="text/javascript">
+        var console = { log: function() {} };
+    </script>
+    <![endif]-->
+</head>
+<body>
+<div id="fullpage">
+    <div class="section fp-auto-height-responsive" id="section0">
+        <div class="intro" >
+            <div class="yyRadio-hero">
+                <div class="yyRadio-overlay"></div>
+                <div class="yyRadio-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/cover_bg_1.jpg);">
+                    <div class="desc animate-box">
+                        <h2>Capture Every <strong>Good</strong> Things</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section1">
+        <div class="slide" id="slide1">
+            <div class="intro">
+                <h1>Ideal for small screens</h1>
+            </div>
+        </div>
+
+        <div class="slide" id="slide2">
+            <h1>This example uses responsiveWidth: 900</h1>
+        </div>
+
+    </div>
+    <div class="section" id="section2">
+        <div class="intro">
+            <h1>Keep it simple!</h1>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/fullpage.js"></script>
+<!--<script type="text/javascript" src="examples.js"></script>-->
+
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        anchors: ['firstPage', 'secondPage', '3rdPage'],
+        sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
+        navigation: true,
+        navigationPosition: 'right',
+        navigationTooltips: ['First page', 'Second page', 'Third and last page'],
+        responsiveWidth: 900,
+        afterResponsive: function(isResponsive){
+
+        }
+
+    });
+</script>
+
+</body>
+</html>

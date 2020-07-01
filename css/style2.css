@@ -1,0 +1,264 @@
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+    background: #fff;
+    color: #848484;
+    font-weight: 300;
+    overflow-x: hidden;
+}
+/*body.yyRadio-offcanvas {*/
+    /*overflow: hidden;*/
+/*}*/
+
+/*a {*/
+    /*color: #ef6249;*/
+    /*-webkit-transition: 0.5s;*/
+    /*-o-transition: 0.5s;*/
+    /*transition: 0.5s;*/
+/*}*/
+/*a:hover {*/
+    /*text-decoration: none !important;*/
+    /*color: #ef6249 !important;*/
+/*}*/
+
+/*p, ul, ol {*/
+    /*margin-bottom: 1.5em;*/
+    /*font-size: 16px;*/
+    /*color: #848484;*/
+    /*font-family: "Open Sans", Arial, sans-serif;*/
+/*}*/
+
+/*h1, h2, h3, h4, h5, h6 {*/
+    /*color: #5a5a5a;*/
+    /*font-family: "Open Sans", Arial, sans-serif;*/
+    /*font-weight: 400;*/
+    /*margin: 0 0 30px 0;*/
+/*}*/
+
+/*figure {*/
+    /*margin-bottom: 2em;*/
+/*}*/
+
+/*::-webkit-selection {*/
+    /*color: #fcfcfc;*/
+    /*background: #ef6249;*/
+/*}*/
+
+/*::-moz-selection {*/
+    /*color: #fcfcfc;*/
+    /*background: #ef6249;*/
+/*}*/
+
+/*::selection {*/
+    /*color: #fcfcfc;*/
+    /*background: #ef6249;*/
+/*}*/
+
+
+/* header*/
+#yyRadio-header {
+    position: relative;
+    margin-bottom: 0;
+    z-index: 9999999;
+}
+
+/* 防止以后需要导航栏 */
+#yyRadio-header-section {
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+.nav-header {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+/* 头部左边logo */
+#yyRadio-logo {
+    position: relative;
+    z-index: 2;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    font-weight: 900;
+    float: left;
+}
+@media screen and (max-width: 768px) {
+    #yyRadio-logo {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+}
+#yyRadio-logo a {
+    color: #fff;
+}
+#yyRadio-logo a:hover, #yyRadio-logo a:focus {
+    color: #fff !important;
+}
+
+/* 主页背景 */
+.yyRadio-cover, .yyRadio-hero {
+    position: relative;
+    height: 700px;
+}
+.yyRadio-overlay {
+    position: absolute !important;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background: rgba(41, 34, 43, 0.5);
+}
+.yyRadio-cover {
+    background-size: cover;
+    position: relative;
+}
+.yyRadio-cover .desc {
+    top: 50%;
+    position: absolute;
+    width: 100%;
+    margin-top: -80px;
+    z-index: 2;
+    color: #fff;
+}
+.yyRadio-cover .desc h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-weight: 300 !important;
+}
+.yyRadio-cover .desc h2 strong {
+    font-weight: 700;
+}
+.yyRadio-cover .desc .btn {
+    border: none;
+}
+.yyRadio-cover .desc .btn.btn-video {
+    background: rgba(0, 0, 0, 0.4);
+    border: none;
+}
+.yyRadio-cover .desc .btn.btn-video:hover, .yyRadio-cover .desc .btn.btn-video:focus {
+    background: rgba(0, 0, 0, 0.9) !important;
+    color: #fff !important;
+}
+.yyRadio-cover .desc .btn:hover, .yyRadio-cover .desc .btn:focus {
+    color: #fff !important;
+}
+
+/* mv歌曲 */
+#yyRadio-mv {
+    margin-top: 100px;
+}
+@media screen and (max-width: 768px) {
+    #yyRadio-mv {
+        margin-top: 11em;
+    }
+}
+#fyyRadio-mv .work {
+    width: 100%;
+    float: left;
+    margin-bottom: 7em;
+}
+.work{
+    margin-bottom: 50px;
+}
+
+#yyRadio-mv .work .half-inner {
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    /*height: 400px;*/
+    height: 100%;
+    width: 100%;
+    left: 220px;
+    -webkit-box-shadow: 0px 6px 62px -6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 6px 62px -6px rgba(0, 0, 0, 0.3);
+    -ms-box-shadow: 0px 6px 62px -6px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 0px 6px 62px -6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 6px 62px -6px rgba(0, 0, 0, 0.3);
+}
+@media screen and (max-width: 992px) {
+    #yyRadio-mv .work .half-inner {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+#yyRadio-mv .work .half-inner:before {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 60%;
+    height: 540px;
+    content: '';
+    z-index: -1;
+    background: #fff;
+}
+#yyRadio-mv .work .desc {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 7em;
+}
+#yyRadio-mv .work .desc h3 a {
+    color: #000;
+}
+/* video */
+.video-box{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.video-box .image{
+    position: relative;
+    margin-bottom: 0;
+}
+
+.video-box .image img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.video-box .link{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    transition: all 300ms ease;
+}
+
+.video-box:hover .link{
+    background-color: rgba(0,0,0,0.50);
+}
+
+.video-box .link .icon{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -40px;
+    margin-left: -40px;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    text-align: center;
+    border: 2px solid #eeeeee;
+    font-size: 26px;
+    padding-left: 7px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,.30);
+    color: #ffffff;
+    transition: all 300ms ease;
+}
+
+.video-box:hover .link .icon{
+    background-color: #ffffff;
+    color: #000000;
+}
