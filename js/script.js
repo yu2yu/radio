@@ -23,13 +23,21 @@ new Vue({
           cover: "images/road.jpg",
           source: "audio/会紧张啊.mp3",
           url: "https://yu2yu.github.io",
-          favorited: true
+          favorited: false
         },
         {
           name: "憨憨",
           artist: "YY",
           cover: "images/dog.jpg",
           source: "audio/憨憨云.mp3",
+          url: "https://yu2yu.github.io",
+          favorited: false
+        },
+        {
+          name: "try it",
+          artist: "YY",
+          cover: "images/hip.jpg",
+          source: "audio/try it.mp3",
           url: "https://yu2yu.github.io",
           favorited: false
         }
