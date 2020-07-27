@@ -109,7 +109,7 @@ body {
 @media screen and (max-width: 768px) {
     .yyRadio-cover,
     .yyRadio-hero {
-        width: 800px;
+        /*width: 800px;*/
     }
 }
 .yyRadio-overlay {
