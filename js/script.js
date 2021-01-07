@@ -23,7 +23,7 @@
           cover: "images/road.jpg",
           source: "audio/会紧张啊.mp3",
           url: "https://yu2yu.github.io",
-          favorited: true
+          favorited: false
         },
         {
           name: "憨憨",
@@ -34,13 +34,20 @@
           favorited: false
         },
         {
+          name: "try it",
+          artist: "YY",
+          cover: "images/hiphop.jpg",
+          source: "audio/try it.mp3",
+          url: "https://yu2yu.github.io",
+          favorited: false
+        },
+        {
           name: "20.21",
           artist: "YY",
           cover: "images/2021.jpg",
           source: "audio/20.21.mp3",
-          url: "https://yu2yu.github.io",
           favorited: false
-        }
+        },
       ],
       currentTrack: null,
       currentTrackIndex: 0,
