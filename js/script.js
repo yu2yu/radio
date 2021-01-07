@@ -1,4 +1,4 @@
-new Vue({
+﻿new Vue({
   el: "#app",
   data() {
     return {
@@ -30,6 +30,14 @@ new Vue({
           artist: "YY",
           cover: "images/dog.jpg",
           source: "audio/憨憨云.mp3",
+          url: "https://yu2yu.github.io",
+          favorited: false
+        },
+        {
+          name: "20.21",
+          artist: "YY",
+          cover: "images/2021.jpg",
+          source: "audio/20.21.mp3",
           url: "https://yu2yu.github.io",
           favorited: false
         }
