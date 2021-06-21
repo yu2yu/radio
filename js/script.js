@@ -40,6 +40,22 @@
           source: "audio/try it.mp3",
           url: "https://yu2yu.github.io",
           favorited: false
+        },
+        {
+          name: "Midnight",
+          artist: "YY",
+          cover: "images/midnight.jpeg",
+          source: "audio/Midnight.mp3",
+          url: "https://yu2yu.github.io",
+          favorited: false
+        },
+        {
+          name: "Till we meet again",
+          artist: "YY",
+          cover: "images/goodbye.jpeg",
+          source: "audio/till we meet again.mp3",
+          url: "https://yu2yu.github.io",
+          favorited: false
         }
       ],
       currentTrack: null,
