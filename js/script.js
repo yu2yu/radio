@@ -47,7 +47,7 @@
           cover: "images/2021.jpg",
           source: "audio/20.21.mp3",
           favorited: false
-        }，
+        },
         {
           name: "Midnight",
           artist: "YY",
