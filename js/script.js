@@ -63,6 +63,14 @@
           source: "audio/till we meet again.mp3",
           url: "https://yu2yu.github.io",
           favorited: false
+        },
+        {
+          name: "GONE",
+          artist: "YY",
+          cover: "images/gone.jpeg",
+          source: "audio/gone.mp3",
+          url: "https://yu2yu.github.io",
+          favorited: false
         }
       ],
       currentTrack: null,
